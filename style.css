@@ -12,7 +12,24 @@ p {
     color: rgba(14, 41, 192, 0.692);
 }
 ul {
-    color: brown;
+    color: brown
+}
+nav {
+    color: white;
+    background-color: dimgray;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav li {
+    display: inline;
+}
+nav a { /*selecteur multiple : les liens ( a ) situés dans une nav */
+    text-decoration: none;
+    color: white;
+    background-color: dimgray;
+    
 }
 /* body = selecteur (type classe) */
 .gras {
@@ -26,6 +43,9 @@ ul {
 }
 .italique{
     font-style: italic;
+}
+.bordure {
+    border: solid 1px red; 
 }
 /* #paragraphe2 type identifiant */
 #paragraphe2{

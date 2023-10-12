@@ -1,3 +1,34 @@
+/* body = selecteur (type d'élément */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; /* indique la police de caratère */
+    color: darkslategrey; /* couleur du texte */
+    font-size: 16px; /* taille du texte */
+    /* font-weight: bold; /* graisse (poids) de la font */
+}
+h1 {
+    color: rgb(59, 164, 224);
+}
+p {
+    color: rgba(14, 41, 192, 0.692);
+}
+ul {
+    color: brown;
+}
+/* body = selecteur (type classe) */
+.gras {
+    font-weight: bold;
+}
+.barre{
+    text-decoration: line-through;
+}
+.souligne{
+    text-decoration: underline;
+}
+.italique{
+    font-style: italic;
+}
+/* #paragraphe2 type identifiant */
+#paragraphe2{
+    font-size: 26px;
+    letter-spacing: 3px; /*mets 3 pixels entre chaques mots */
 }
